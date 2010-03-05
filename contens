@@ -1,0 +1,15 @@
+#!/usr/bin/ruby 
+$:.unshift "#{File.dirname(__FILE__)}/lib"
+require 'contensual'
+
+toc = Contensual::TableOfContents.load('Tocfile')
+
+toc.documents.each do |d|
+  puts d.title
+  d.pages.each do |p|
+    puts "\t#{p.title}"
+    puts "\t\t<= #{p.prev}"
+    puts "\t\t=> #{p.next}"
+  end
+end
+

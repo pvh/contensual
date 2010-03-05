@@ -1,0 +1,67 @@
+document 'how' do
+  title 'How add-ons work'
+  page 'overview' do
+    title 'Add-on architecture overview'
+  end
+  page 'provision' do
+    title 'How Heroku provisions from your service'
+  end
+  page 'consume' do
+    title 'How a Heroku app consumes your cloud service'
+  end
+  page 'sso' do
+    title 'Single sign-on access to your admin panel'
+  end
+end
+
+document 'build' do
+  title 'Build your add-on'
+  page 'overview' do
+    title 'Overview'
+  end
+  page 'provisioning' do
+    title 'Provisioning'
+  end
+  page 'consumer' do
+    title 'Consumer'
+  end
+  page 'submit' do
+    title 'Submit to catalog'
+  end
+  page 'sso' do
+    title 'Single sign-on'
+  end
+end  
+
+document 'sample' do
+  title 'Sample Code'
+  page 'index' do
+    title 'Index'
+  end
+  page 'mysqlomatic' do
+    title 'MySQL-o-matic'
+  end
+  page 'errorbucket' do
+    title 'Errorbucket'
+  end
+end
+
+document 'reference' do
+  title 'Reference materials'
+  page 'index' do
+    title 'Index'
+  end
+  page 'api-spec' do
+    title 'Provisioning API spec'
+  end
+  page 'manifest' do
+    title 'Manifest format'
+  end
+  page 'glossary' do
+    title 'Glossary'
+  end
+  page 'performance' do
+    title 'Performance'
+  end
+end
+
